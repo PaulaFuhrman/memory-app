@@ -1,0 +1,85 @@
+.game {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+  
+    &.visible {
+      opacity: 1;
+      transition: 0.8s ease-in-out;
+    }
+  
+    .timer {
+      font-size: 25px;
+      font-family: 'Rajdhani', sans-serif;
+    }
+  
+    .board {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      color: rgb(234, 232, 232);
+  
+      .fa-solid {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+        margin: 3px;
+        text-align: center;
+        background-color: rgb(49, 48, 48);
+        box-shadow: 2px 2px 3px 1px black;
+        transition: 0.3s;
+        transform-style: preserve-3d;
+  
+        &.hidden-card {
+          color: rgb(49, 48, 48);
+        }
+  
+        &:hover {
+          box-shadow: 2px 2px 3px 1px rgb(118, 116, 116);
+        }
+  
+        &.off {
+          visibility: hidden;
+        }
+      }
+      .fa-cow {
+        color: seagreen;
+      }
+      .fa-cat {
+        color: cadetblue;
+      }
+      .fa-dog {
+        color: coral;
+      }
+      .fa-hippo {
+        color:indianred;
+      }
+      .fa-spider {
+       color:darkkhaki;
+      }
+      .fa-dove {
+        color: lightcoral;
+      }
+      .fa-dragon {
+        color: mediumpurple;
+      }
+      .fa-fish {
+        color: hotpink;
+      }
+      .fa-horse {
+        color:rosybrown;
+      }
+      .fa-kiwi-bird {
+        color: orchid;
+      }
+      .fa-otter {
+       color:chocolate;
+      }
+      .fa-frog {
+        color:lightslategrey;
+      }
+    }
+  }
+  

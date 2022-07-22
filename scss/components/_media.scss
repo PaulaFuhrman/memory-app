@@ -1,0 +1,144 @@
+@media (min-width: 576px) {
+  .app {
+    .game {
+      width: 90%;
+      .board {
+        .fa-solid {
+          width: 70px;
+          height: 70px;
+          line-height: 70px;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    .wrapper {
+      .title {
+        .title__name {
+          > p {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            font-size: 40px;
+          }
+        }
+      }
+      #play {
+        font-size: 30px;
+        padding: 5px 30px;
+      }
+    }
+    .game {
+      width: 80%;
+      .board {
+        .fa-solid {
+          width: 80px;
+          height: 80px;
+          line-height: 80px;
+          font-size: 50px;
+        }
+      }
+    }
+    .pop-up {
+      .fa-trophy,
+      .fa-face-frown-open {
+        font-size: 65px;
+      }
+      > p {
+        font-size: 55px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .app {
+    .game {
+      width: 70%;
+      .board {
+        .fa-solid {
+          width: 90px;
+          height: 90px;
+          line-height: 90px;
+          font-size: 50px;
+        }
+      }
+    }
+    .pop-up {
+        .fa-trophy,
+        .fa-face-frown-open {
+            font-size: 75px;
+        }
+        > p {
+            font-size: 65px;
+          }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .app {
+    .wrapper {
+      .title {
+        margin-bottom: 80px;
+        .title__name {
+          > p {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            font-size: 50px;
+          }
+        }
+      }
+      #play {
+        font-size: 40px;
+        padding: 5px 40px;
+      }
+    }
+    .game {
+      width: 60%;
+      .board {
+        .fa-solid {
+          width: 110px;
+          height: 110px;
+          line-height: 110px;
+          font-size: 50px;
+        }
+      }
+    }
+    .pop-up {
+        .fa-trophy,
+        .fa-face-frown-open {
+            font-size: 85px;
+        }
+        > p {
+            font-size: 75px;
+          }
+          #play-again {
+            margin-top: 40px;
+            font-size: 30px;
+          }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .app {
+    .game {
+      width: 50%;
+    }
+    .pop-up {
+        .fa-trophy,
+        .fa-face-frown-open {
+            font-size: 95px;
+        }
+        > p {
+            font-size: 85px;
+          }
+    }
+  }
+}

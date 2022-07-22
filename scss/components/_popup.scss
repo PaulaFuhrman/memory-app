@@ -1,0 +1,44 @@
+.pop-up {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  .fa-trophy {
+    font-size: 45px;
+    margin-bottom: 10px;
+    animation: cup-color 6s infinite;
+  }
+
+  .fa-face-frown-open {
+    font-size: 45px;
+  }
+
+  > p {
+    font-size: 45px;
+    letter-spacing: 1px;
+  }
+
+  #play-again {
+    margin-top: 20px;
+  }
+
+  @keyframes cup-color {
+    0% {
+      color: black;
+    }
+    20% {
+      color: seagreen;
+    }
+    40% {
+      color: lightcoral;
+    }
+    60% {
+      color: cornflowerblue;
+    }
+    80% {
+      color: orchid;
+    }
+  }
+}
